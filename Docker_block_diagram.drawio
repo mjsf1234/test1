@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" modified="2023-07-06T06:35:04.385Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_ihmP_2JFmVe6dXnh9f4" version="21.5.0" type="github" pages="2">
+  <diagram name="Page-1" id="p4FWQPApiumVHCDueK-T">
+    <mxGraphModel dx="823" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dRn6ef42t4dNRgUZaQ1z-1" value="&lt;b&gt;&lt;font color=&quot;#ffff00&quot;&gt;Docker Client&lt;br&gt;(CLI)&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="230" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRn6ef42t4dNRgUZaQ1z-2" value="&lt;b&gt;&lt;font color=&quot;#ffff00&quot;&gt;Docker Server&lt;br&gt;(Daemon)&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="230" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRn6ef42t4dNRgUZaQ1z-3" value="&lt;b&gt;&lt;font color=&quot;#ffff00&quot;&gt;Docker Registry&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="500" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRn6ef42t4dNRgUZaQ1z-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#7ada3e;strokeWidth=2;" parent="1" source="dRn6ef42t4dNRgUZaQ1z-1" target="dRn6ef42t4dNRgUZaQ1z-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="350" as="sourcePoint" />
+            <mxPoint x="590" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRn6ef42t4dNRgUZaQ1z-5" value="Give some Command&lt;br&gt;for ex: ask for some Image" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="260" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dRn6ef42t4dNRgUZaQ1z-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#33FF33;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="360" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRn6ef42t4dNRgUZaQ1z-7" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="484" y="285" as="sourcePoint" />
+            <mxPoint x="354" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRn6ef42t4dNRgUZaQ1z-8" value="if Image not present then fetch from registry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="420" y="350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dRn6ef42t4dNRgUZaQ1z-10" value="Image" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-25;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="389" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8Mv2VDhbT7c7dwDW9j3d" name="Page-2">
+    <mxGraphModel dx="1841" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
